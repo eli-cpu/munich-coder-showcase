@@ -54,7 +54,7 @@ const Hero = () => {
 
         <div className="flex items-center justify-center gap-6 animate-fade-up" style={{ animationDelay: "0.5s" }}>
           <a
-            href="https://github.com"
+            href="https://github.com/eli-cpu"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-secondary text-muted-foreground hover:text-foreground hover:bg-secondary/80 transition-colors"
