@@ -15,7 +15,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
             <div className="flex items-center gap-3 text-muted-foreground">
               <Mail className="w-5 h-5 text-primary" />
-              <span>your.email@tum.de</span>
+              <span>e.anwari885@gamil.com</span>
             </div>
             <div className="hidden sm:block w-1 h-1 rounded-full bg-border" />
             <div className="flex items-center gap-3 text-muted-foreground">
@@ -25,7 +25,7 @@ const Contact = () => {
           </div>
 
           <a
-            href="mailto:your.email@tum.de"
+            href="mailto:e.anwari885@gamil.com"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all hover:scale-105 animate-glow"
           >
             <Send className="w-5 h-5" />
