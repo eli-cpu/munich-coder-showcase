@@ -1,8 +1,6 @@
 import { Briefcase, Calendar, Building2 } from "lucide-react";
-
 const Experience = () => {
-  return (
-    <section id="experience" className="py-24">
+  return <section id="experience" className="py-24">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
@@ -35,7 +33,7 @@ const Experience = () => {
                 <div className="flex flex-wrap gap-4 mb-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4" />
-                    <span>Oct 2024 – Present</span>
+                    <span>Oct 2025 – Present</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Briefcase className="w-4 h-4" />
@@ -63,22 +61,15 @@ const Experience = () => {
                 </ul>
 
                 <div className="flex flex-wrap gap-2 mt-4">
-                  {["CMDB", "Jira", "Excel", "Enterprise Architecture", "IT Service Management"].map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-2 py-1 rounded text-xs font-mono bg-background/50 text-muted-foreground"
-                    >
+                  {["CMDB", "Jira", "Excel", "Enterprise Architecture", "IT Service Management"].map(skill => <span key={skill} className="px-2 py-1 rounded text-xs font-mono bg-background/50 text-muted-foreground">
                       {skill}
-                    </span>
-                  ))}
+                    </span>)}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Experience;
