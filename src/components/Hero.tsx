@@ -23,7 +23,7 @@ const Hero = () => {
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-up"
           style={{ animationDelay: "0.2s" }}
         >
-          Hi, I'm <span className="gradient-text">Your Name</span>
+          Hi, I'm <span className="gradient-text">Elias Anwari</span>
         </h1>
 
         <p
