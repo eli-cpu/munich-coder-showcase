@@ -8,7 +8,7 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Your Name. Built with React & Tailwind.
           </p>
-          
+
           <div className="flex items-center gap-4">
             <a
               href="https://github.com"
@@ -19,7 +19,7 @@ const Footer = () => {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/elias-anwari/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
