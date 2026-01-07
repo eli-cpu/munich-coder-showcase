@@ -2,36 +2,20 @@ import { ExternalLink, Github, Folder } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "GenDev-8",
     description:
-      "A full-stack e-commerce solution with user authentication, product catalog, shopping cart, and payment integration. Built with modern web technologies for optimal performance.",
-    technologies: ["React", "Express.js", "PostgreSQL", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "A Proof of Concept for the 'Home Widgets' architecture designed for the CHECK24 GenDev 8 Challenge. A full-stack application featuring high availability, multi-platform support, and scalable architecture.",
+    technologies: ["React.js", "Node.js", "Express", "MongoDB", "Docker", "Capacitor"],
+    github: "https://github.com/eli-cpu/GenDev-8",
+    live: "http://3.72.18.95:80/",
   },
   {
-    title: "Task Management App",
+    title: "Twitter Clone",
     description:
-      "A collaborative task management application featuring real-time updates, team workspaces, and advanced filtering. Designed for productivity and team collaboration.",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "Algorithm Visualizer",
-    description:
-      "An interactive web application that visualizes various sorting and pathfinding algorithms. Educational tool for understanding algorithm complexity and behavior.",
-    technologies: ["JavaScript", "HTML/CSS", "Canvas API"],
-    github: "https://github.com",
+      "A fully functional Twitter clone application built with React.js, Express, MongoDB, and Node.js, implementing core social media features including posts, interactions, and user management.",
+    technologies: ["React.js", "Express", "MongoDB", "Node.js"],
+    github: "https://github.com/eli-cpu/Twitter-clone",
     live: null,
-  },
-  {
-    title: "Weather Dashboard",
-    description:
-      "A weather application that provides real-time weather data, forecasts, and location-based services. Features a clean UI with detailed weather metrics.",
-    technologies: ["React", "Python", "OpenWeather API"],
-    github: "https://github.com",
-    live: "https://example.com",
   },
 ];
 
@@ -104,7 +88,7 @@ const Projects = () => {
 
           <div className="text-center mt-12">
             <a
-              href="https://github.com"
+              href="https://github.com/eli-cpu"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"

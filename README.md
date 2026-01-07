@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# Elias Anwari - Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing my journey as a Computer Science student at the Technical University of Munich.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## About
 
-## How can I edit this code?
+This is my personal portfolio built with React, TypeScript, and Tailwind CSS. It features a clean design with dark mode support and showcases my projects, skills, and experience.
 
-There are several ways of editing your application.
+## Development
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- Node.js (LTS version)
+- npm or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Setup
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+1. Clone the repository:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
+cd elias-anwari-portfolio
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
 
-# Step 3: Install the necessary dependencies.
-npm i
+```sh
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Technologies
 
-**Use GitHub Codespaces**
+This portfolio is built with modern web technologies:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **React** - Component-based UI library
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful and accessible UI components
+- **Lucide React** - Beautiful icons
+- **React Router** - Client-side routing
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+### University Homepage Hosting (TUM)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+For deploying to the university's homepage server (`home.in.tum.de`):
 
-## How can I deploy this project?
+1. **Build for university hosting:**
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+```sh
+npm run build:university
+```
 
-## Can I connect a custom domain to my Lovable project?
+This command builds the project to the `html-data` folder and sets the correct permissions required by the university server.
 
-Yes, you can!
+2. **Upload to university server:**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```sh
+# Connect to the university server
+ssh <your_login>@lxhalle.in.tum.de
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# Navigate to the correct directory structure
+# The html-data folder should be at: /u/halle/$USER/home_page/html-data/
+
+# Copy your built files (from your local html-data folder)
+scp -r html-data/* <your_login>@lxhalle.in.tum.de:/u/halle/$USER/home_page/html-data/
+```
+
+3. **Access your website:**
+   Your portfolio will be available at: `http://home.in.tum.de/~<your_login>/`
+
+### Other Static Hosting Services
+
+The portfolio can also be deployed to any static hosting service:
+
+- **Vercel**: `npm run build && vercel --prod`
+- **Netlify**: `npm run build && netlify deploy --prod --dir=html-data`
+- **GitHub Pages**: Configure GitHub Actions for automatic deployment
+
+## Contact
+
+Feel free to reach out if you'd like to connect!
+
+- **Email**: e.anwari885@gmail.com
+- **LinkedIn**: [linkedin.com/in/elias-anwari](https://www.linkedin.com/in/elias-anwari/)
+- **GitHub**: [github.com/eli-cpu](https://github.com/eli-cpu)

@@ -8,8 +8,13 @@ const skills = [
   { name: "Python", category: "Languages" },
   { name: "C", category: "Languages" },
   { name: "SQL", category: "Database" },
-  { name: "PostgreSQL", category: "Database" },
+  { name: "NoSQL", category: "Database" },
   { name: "Git", category: "Tools" },
+  { name: "Docker", category: "Tools" },
+  { name: "Capacitor", category: "Tools" },
+  { name: "REST", category: "Backend" },
+  { name: "gRPC", category: "Backend" },
+  { name: "Testing with Java", category: "Languages" },
   { name: "HTML/CSS", category: "Frontend" },
 ];
 
@@ -55,7 +60,7 @@ const Skills = () => {
           <div className="mt-16 p-6 rounded-xl bg-gradient-to-r from-primary/10 via-primary/5 to-transparent border border-primary/20">
             <p className="text-sm text-muted-foreground">
               <span className="text-foreground font-medium">Currently learning:</span>{" "}
-              Docker, Kubernetes, and Cloud Architecture. Always eager to expand my skill set 
+              IT Security with Python and System Software with C. Always eager to expand my skill set
               and tackle new challenges.
             </p>
           </div>

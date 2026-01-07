@@ -1,5 +1,5 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "elias-anwari-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "build:university": "vite build && chmod -v o+x html-data && chmod -R o+r html-data/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
