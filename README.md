@@ -50,6 +50,25 @@ This portfolio is built with modern web technologies:
 
 ## Deployment
 
+### GitHub Pages
+
+For deploying to GitHub Pages:
+
+1. **Build the project:**
+```sh
+npm run build
+```
+
+2. **Deploy to GitHub Pages:**
+   - Go to your repository on GitHub
+   - Navigate to Settings → Pages
+   - Under "Source", select "Deploy from a branch"
+   - Choose the `main` branch and `/dist` folder
+   - Or use GitHub Actions for automatic deployment
+
+3. **Access your website:**
+Your portfolio will be available at: `https://eli-cpu.github.io/munich-coder-showcase/`
+
 ### University Homepage Hosting (TUM)
 
 For deploying to the university's homepage server (`home.in.tum.de`):
@@ -83,7 +102,7 @@ scp -r html-data/* <your_login>@lxhalle.in.tum.de:/u/halle/$USER/home_page/html-
 The portfolio can also be deployed to any static hosting service:
 
 - **Vercel**: `npm run build && vercel --prod`
-- **Netlify**: `npm run build && netlify deploy --prod --dir=html-data`
+- **Netlify**: `npm run build && netlify deploy --prod --dir=dist`
 - **GitHub Pages**: Configure GitHub Actions for automatic deployment
 
 ## Contact

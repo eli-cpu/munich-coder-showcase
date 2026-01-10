@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    outDir: "html-data",
+    outDir: "dist",
     emptyOutDir: true,
   },
 }));
