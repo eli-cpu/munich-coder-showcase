@@ -9,7 +9,8 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            A brief introduction to who I am and what drives my passion for technology
+            A brief introduction to who I am and what drives my passion for
+            technology
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -21,7 +22,7 @@ const About = () => {
               <p className="text-sm text-muted-foreground">
                 B.Sc. Computer Science at TUM
                 <br />
-                3rd Semester
+                4th Semester
               </p>
             </div>
 
@@ -52,10 +53,12 @@ const About = () => {
 
           <div className="prose prose-invert mx-auto text-center">
             <p className="text-muted-foreground leading-relaxed">
-              I'm a dedicated Computer Science student with a strong foundation in software development. 
-              My journey in tech started with curiosity about how things work, and has evolved into a 
-              passion for building elegant solutions to complex problems. I enjoy working across the 
-              full stack, from crafting responsive user interfaces to designing robust backend systems.
+              I'm a dedicated Computer Science student with a strong foundation
+              in software development. My journey in tech started with curiosity
+              about how things work, and has evolved into a passion for building
+              elegant solutions to complex problems. I enjoy working across the
+              full stack, from crafting responsive user interfaces to designing
+              robust backend systems.
             </p>
           </div>
         </div>

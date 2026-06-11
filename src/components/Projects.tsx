@@ -2,12 +2,18 @@ import { ExternalLink, Github, Folder } from "lucide-react";
 
 const projects = [
   {
-    title: "GenDev-8",
-    description:
-      "A Proof of Concept for the 'Home Widgets' architecture designed for the CHECK24 GenDev 8 Challenge. A full-stack application featuring high availability, multi-platform support, and scalable architecture.",
-    technologies: ["React.js", "Node.js", "Express", "MongoDB", "Docker", "Capacitor"],
-    github: "https://github.com/eli-cpu/GenDev-8",
-    live: "http://3.72.18.95:80/",
+    title: "Python-Music-Bot",
+    description: "A basic Discord bot setup ready for music functionality.",
+    technologies: [
+      "Python",
+      "FFmpeg",
+      "PyNaCl",
+      "Discord",
+      "Spotify API",
+      "Docker",
+    ],
+    github: "https://github.com/eli-cpu/Python-Music-Bot",
+    live: null,
   },
   {
     title: "Twitter Clone",
@@ -15,6 +21,14 @@ const projects = [
       "A fully functional Twitter clone application built with React.js, Express, MongoDB, and Node.js, implementing core social media features including posts, interactions, and user management.",
     technologies: ["React.js", "Express", "MongoDB", "Node.js"],
     github: "https://github.com/eli-cpu/Twitter-clone",
+    live: null,
+  },
+  {
+    title: "Gemini_AddOn",
+    description:
+      "A Chrome extension for Google Gemini that lets you organize chats into folders and manage them via drag and drop.",
+    technologies: ["React.js", "Chrome Extension APIs", "Content Scripts"],
+    github: "https://github.com/eli-cpu/Gemini_AddOn",
     live: null,
   },
 ];
@@ -28,7 +42,8 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            A selection of projects that showcase my skills and passion for development
+            A selection of projects that showcase my skills and passion for
+            development
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">

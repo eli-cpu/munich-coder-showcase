@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Elias Anwari. Built with React & Tailwind.
+            © {new Date().getFullYear()} Elias Anwari. Built with React &
+            Tailwind.
           </p>
 
           <div className="flex items-center gap-4">
@@ -27,7 +28,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:e.anwari885@gamil.com"
+              href="mailto:e.anwari@proton.me"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Mail className="w-5 h-5" />
